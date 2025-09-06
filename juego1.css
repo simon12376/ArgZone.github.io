@@ -1,0 +1,85 @@
+body {
+      background-color: #121212;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #1e1e1e;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    }
+
+    .titulo-principal {
+      font-size: 2.5rem;
+      color: #00ccfff6;
+    }
+
+    .contenedor-juego {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #1b1b1b;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .imagen-juego img {
+      width: 350px;
+      border-radius: 10px;
+      border: 2px solid #00ccff;
+    }
+
+    .info-juego {
+      max-width: 500px;
+    }
+
+    .info-juego h2 {
+      font-size: 2rem;
+      color: #00ccfffa;
+    }
+
+    .info-juego p {
+      font-size: 1.1rem;
+      line-height: 1.5;
+      margin: 15px 0;
+    }
+
+    .precio {
+      font-size: 1.5rem;
+      color: #00ffccf5;
+      margin-bottom: 20px;
+    }
+
+    .btn-comprar {
+      background-color: #0099ccf3;
+      border: none;
+      padding: 12px 24px;
+      color: white;
+      font-weight: bold;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    a.volver {
+      display: block;
+      text-align: center;
+      margin-top: 30px;
+      color: #00ccff;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    a.volver:hover {
+      text-decoration: underline;
+    }
